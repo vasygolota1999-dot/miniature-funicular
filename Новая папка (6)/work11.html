@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <title>Використання блоків у CSS</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>Приклади роботи з блоками та вкладеними блоками</h1>
+
+<div class="block example1">
+    <p>Головний блок</p>
+
+    <div class="inner-block lvl1">
+        Перший рівень вкладеності
+
+        <div class="inner-block lvl2">
+            Другий рівень вкладеності
+        </div>
+
+    </div>
+</div>
+
+<div class="block example2">
+    <p>Блок з іншим стилем</p>
+
+    <div class="inner-block lvl3">
+        Вкладений блок з іншим фоном
+    </div>
+</div>
+
+<div class="block example3">
+    <p>Приклад третього блоку</p>
+
+    <div class="flex-container">
+        <div class="small-block">Блок А</div>
+        <div class="small-block">Блок Б</div>
+        <div class="small-block">Блок В</div>
+    </div>
+</div>
+
+</body>
+</html>
